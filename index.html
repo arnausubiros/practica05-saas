@@ -21,16 +21,16 @@
             <div class="card-body">
               <div class="row text-center align-items-center my-3">
                 <div class="col-12 col-md-6 order-1">
-                  <p class="mb-0 h2 fw-bold">
+                  <p class="mb-0 h2 fw-bold text-info">
                     $
-                    <span>24</span>
+                    <span id="precio">8</span>
                     .00
                     <span class="text-white-50 h6 align-middle">/ month</span>
                   </p>
                 </div>
                 <div class="col-12 col-md-6 order-3 order-md-2">
                   <p class="mb-0">
-                    <span class="text-primary"> 100K</span>
+                    <span class="text-primary" id="visitas"> 10K</span>
                     PAGEVIEWS
                   </p>
                 </div>
@@ -39,10 +39,11 @@
                   <input
                     type="range"
                     class="form-range"
-                    min="0"
-                    max="5"
-                    step="0.5"
-                    id="customRange3"
+                    min="8"
+                    max="40"
+                    step="8"
+                    id="inputRango"
+                    value="8"
                   />
                 </div>
               </div>
@@ -79,4 +80,6 @@
       </div>
     </div>
   </body>
+
+  <script src="js/app.js"></script>
 </html>

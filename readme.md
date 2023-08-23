@@ -26,3 +26,7 @@ añadimos: @import "../node_modules/bootstrap/scss/bootstrap";
 
 - TIPOGRAFIA - añadimos una fuente de Google Fonts (https://fonts.google.com/ ) - copiaremos el codigo con @import en el archivo custom.scss
 - revisar el archivo \_variables.scsss localizado en /node_modules/bootstrap/scss/\_variables.scss
+
+-creamos carpeta js i eñ archivo app.js
+
+- en el index.html posterior al body --> <script src="js/app.js"></script>
